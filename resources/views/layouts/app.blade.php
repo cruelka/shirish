@@ -14,7 +14,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+<div class="fullscreen">
     <div class="headerline sticky-top">
         <nav>
             <div class="nav-wrapper blue darken-1">
