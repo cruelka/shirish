@@ -5,11 +5,11 @@
         <div class="">
             <div id="main-slider">
                 <div class="slide-element background">
-                    <img class="responsive-img" src="/img/slider.png">
+                    <img class="responsive-img" style="margin: 0 auto" src="/img/slider.png">
 
                 </div>
                 <div class="slide-element background">
-                    <img class="responsive-img" src="/img/slider.png">
+                    <img class="responsive-img" style="margin: 0 auto" src="/img/slider.png">
                 </div>
             </div>
             <div class="row white">
