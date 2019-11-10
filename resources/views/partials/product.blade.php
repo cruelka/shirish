@@ -6,9 +6,10 @@
         </div>
         <div class="card-content">
             <p>Product.</p>
+            <p class="red-text">144 AED</p>
         </div>
         <div class="card-action">
-            <a href="#">Open</a>
+            <a href="#">BUY</a>
         </div>
     </div>
 </div>

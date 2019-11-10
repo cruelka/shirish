@@ -9707,3 +9707,7 @@ input[type=range]::-ms-thumb {
   color: #0071bb;
 }
 
+.text-center p {
+  text-align: center;
+}
+

@@ -70,12 +70,12 @@
     </div>
     <div class="section">
         <div class="center">
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>menu 1</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>menu 1</a>
-            <a class="waves-effect red darken-3 btn"><i class="material-icons left">cloud</i>menu 1</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>menu 1</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>menu 1</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>menu 1</a>
+            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">free_breakfast</i>Glassware</a>
+            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">kitchen</i>Kitchen Products</a>
+            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>Tableware</a>
+            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">spa</i>Cleaning Products</a>
+            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">child_friendly</i>Kidswear</a>
+            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">business_center</i>Office Supplies</a>
         </div>
     </div>
     @yield('content')

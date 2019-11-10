@@ -45291,8 +45291,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/macmini2018_06/workspace/shirish/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/macmini2018_06/workspace/shirish/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/egorkarpacev/PhpstormProjects/shirish/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/egorkarpacev/PhpstormProjects/shirish/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="content">
-        <div class="blue darken-1 z-depth-1">
+        <div class="">
             <div id="main-slider">
                 <div class="slide-element background">
                     <img class="responsive-img" src="/img/slider.png">
@@ -12,38 +12,75 @@
                     <img class="responsive-img" src="/img/slider.png">
                 </div>
             </div>
+            <div class="row white">
+                <div class="col s12 m4 border-right border-secondary">
+                    <div class="row">
+                        <div class="col s12 m4 background ">
+                            <img src="/img/ab-bg.jpg" class="responsive-img padding-small">
+                        </div>
+                        <div class="col s12 m8">
+                            <p class="font-weight-bold ">Free shipping worldwide</p>
+                            <p>text is here</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="row">
+                        <div class="col s12 m4 background">
+                            <img src="/img/ab-bg.jpg" class="responsive-img padding-small">
+                        </div>
+                        <div class="col s12 m8">
+                            <p class="font-weight-bold ">Free shipping worldwide</p>
+                            <p>text is here</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="row">
+                        <div class="col s12 m4 background">
+                            <img src="/img/ab-bg.jpg" class="responsive-img padding-small">
+                        </div>
+                        <div class="col s12 m8">
+                            <p class="font-weight-bold ">Free shipping worldwide</p>
+                            <p>text is here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section container">
-            <h5 class="center-align blue-grey-text darken-2 "> Header 1</h5>
+        <div class="divider"></div>
+        <div class="section ">
+            <h5 class="left-align blue darken-1 white-text padding-small "> Deals of the Week</h5>
 
-
-            <div class="blue darken-1 z-depth-1">
+            <div class=" darken-1">
                 <div id="deals-slider" class="row">
-
                     @for($i = 0; $i < 5; $i ++)
-                        @include('partials.product')
+                        @include('partials.product-timer')
                     @endfor
                 </div>
             </div>
 
         </div>
-        <div class="section container">
-            <h5 class="center-align blue-grey-text darken-2 "> Header 2</h5>
-
-            <div class="blue darken-1 ">
-                <div id="promo-slider" class="row">
-                    @for($i = 0; $i < 5; $i ++)
-                        @include('partials.product')
-                    @endfor
+        <div class="section">
+            <div class=" container">
+                <h5 class="left-align blue-grey-text darken-2 "> New Products</h5>
+                <div class="divider"></div>
+                <div class="grey darken-1 ">
+                    <div id="promo-slider" class="row">
+                        @for($i = 0; $i < 5; $i ++)
+                            @include('partials.product')
+                        @endfor
+                    </div>
                 </div>
+                <div class="divider"></div>
+
             </div>
-            <div class="divider"></div>
 
         </div>
         <div class="section">
 
-            <h5 class="left-align"> Header 2</h5>
-
+            <h5 class="left-align text-left">New Products</h5>
             <div>
                 <div id="small-slider" class="row">
                     @for($i = 0; $i < 7; $i ++)
@@ -227,7 +264,6 @@
     <script>
         $("#main-slider").slick({
             infinite: false,
-            dots: true,
             arrows: true,
             // the magic
             responsive: [{
