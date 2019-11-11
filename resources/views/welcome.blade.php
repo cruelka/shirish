@@ -80,7 +80,7 @@
         </div>
         <div class="section">
 
-            <h5 class="left-align text-left">New Products</h5>
+            <h5 class="left-align text-left">Top trending search this week</h5>
             <div>
                 <div id="small-slider" class="row">
                     @for($i = 0; $i < 7; $i ++)
@@ -125,9 +125,9 @@
                 <div class="row">
                     <h5 class="left-align col s12 m6">Cookware</h5>
                     <div class="right-align col s12 m6">
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Sets</a>
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Egg poachers</a>
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Frying pans</a>
                     </div>
                 </div>
             </div>
@@ -145,11 +145,11 @@
         <div class="row">
             <div class="section-header">
                 <div class="row">
-                    <h5 class="left-align col s12 m6">One more</h5>
+                    <h5 class="left-align col s12 m6">Electrical & Appliances</h5>
                     <div class="right-align col s12 m6">
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Mixers</a>
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Toasters</a>
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Blenders</a>
                     </div>
                 </div>
             </div>
