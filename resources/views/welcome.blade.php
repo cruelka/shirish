@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="divider"></div>
-        <div class="section ">
+        <div class="section " style = "width: 80%;margin: 0 auto">
             <h5 class="left-align blue darken-1 white-text padding-small "> Deals of the Week</h5>
 
             <div class=" darken-1">
@@ -63,8 +63,8 @@
 
         </div>
         <div class="section">
-            <div class=" container">
-                <h5 class="left-align blue-grey-text darken-2 "> New Products</h5>
+            <div style = "width: 80%;margin: 0 auto">
+                <h5 class="left-align blue-grey-text darken-2 "> <span style="border-bottom: 1px solid #0071bb; margin: 0 10px">New Products</span>  <span> On Sale</span></h5>
                 <div class="divider"></div>
                 <div class="grey darken-1 ">
                     <div id="promo-slider" class="row">
@@ -78,7 +78,7 @@
             </div>
 
         </div>
-        <div class="section">
+        <div class="section container">
 
             <h5 class="left-align text-left">Top trending search this week</h5>
             <div>
@@ -120,7 +120,7 @@
         <div class="divider"></div>
     </div>
     <div class="section">
-        <div class="row">
+        <div class="row container">
             <div class="section-header">
                 <div class="row">
                     <h5 class="left-align col s12 m6">Cookware</h5>
@@ -142,7 +142,7 @@
         </div>
     </div>
     <div class="section">
-        <div class="row">
+        <div class="row container">
             <div class="section-header">
                 <div class="row">
                     <h5 class="left-align col s12 m6">Electrical & Appliances</h5>
@@ -216,7 +216,7 @@
         </div>
         <div class="divider"></div>
     </div>
-        <div class="section">
+        <div class="section container">
 
             <h5 class="left-align">Most Viewed</h5>
 
