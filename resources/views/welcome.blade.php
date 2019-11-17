@@ -360,7 +360,7 @@
             adaptiveHeight: true,
             arrows: true,
             autoplay:true,
-            slidesToShow: 3,
+            slidesToShow: 4,
 
             responsive: [{
 
@@ -393,7 +393,7 @@
             adaptiveHeight: true,
             autoplay:true,
             arrows: true,
-            slidesToShow: 3,
+            slidesToShow: 4,
 
             responsive: [{
 
