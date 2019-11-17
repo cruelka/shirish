@@ -155,7 +155,7 @@
             </div>
             <div>
                 <div id="big-slider-2" class="row">
-                    @for($i = 0; $i < 5; $i ++)
+                    @for($i = 0; $i < 6; $i ++)
                         @include('partials.product')
                     @endfor
                 </div>
