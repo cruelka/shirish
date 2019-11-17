@@ -66,7 +66,7 @@
             <div style = "width: 80%;margin: 0 auto">
                 <h5 class="left-align blue-grey-text darken-2 "> <span style="border-bottom: 1px solid #0071bb; margin: 0 10px">New Products</span>  <span style="margin: 0 10px"> On Sale</span><span> Featured Products</span></h5>
                 <div class="divider"></div>
-                <div class="grey darken-1 ">
+                <div class="">
                     <div id="promo-slider" class="row">
                         @for($i = 0; $i < 6; $i ++)
                             @include('partials.product')
