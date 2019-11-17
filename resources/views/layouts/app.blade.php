@@ -108,10 +108,11 @@
                         <li><a class="grey-text text-lighten-1" href="#!">Link 4</a></li>
                     </ul>
                 </div>
+                <div class="col l3 s12">
+                    <p class="grey-text text-darken-1">Instagram section</p>
+                </div>
             </div>
-            <div class="col l3 s12">
-                <p class="grey-text text-darken-1">Instagram section</p>
-            </div>
+
         </div>
         <div class="footer-copyright">
             <div class="container">
