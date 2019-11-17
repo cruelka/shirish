@@ -5,6 +5,7 @@
         </div>
         <div class="card-stacked">
             <div class="card-content">
+                <div class = "rater" ></div>
                 <p>Product</p>
                 <p class="text red-text"> <span class="grey-text" style="text-decoration: line-through">150 AED</span> 110 AED</p>
                 <p class="font-weight-light">description</p>
@@ -14,7 +15,9 @@
                 <p> Hurry Up<br>Promotion will end in</p>
             </div>
             <div class="card-action">
-                <p>timer is here</p>
+                <div class="timer">
+
+                </div>
             </div>
         </div>
     </div>

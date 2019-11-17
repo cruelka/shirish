@@ -64,7 +64,7 @@
         </div>
         <div class="section">
             <div style = "width: 80%;margin: 0 auto">
-                <h5 class="left-align blue-grey-text darken-2 "> <span style="border-bottom: 1px solid #0071bb; margin: 0 10px">New Products</span>  <span> On Sale</span></h5>
+                <h5 class="left-align blue-grey-text darken-2 "> <span style="border-bottom: 1px solid #0071bb; margin: 0 10px">New Products</span>  <span style="margin: 0 10px"> On Sale</span><span> Featured Products</span></h5>
                 <div class="divider"></div>
                 <div class="grey darken-1 ">
                     <div id="promo-slider" class="row">
@@ -446,6 +446,22 @@
                 settings: "unslick" // destroys slick
 
             }]
+        });
+    </script>
+    <script>
+        $('.rater').raty({
+            number: 5,
+            path: "/img/",
+            score: 4
+        });
+    </script>
+    <script type="text/javascript">
+        $('.timer').countdown('2020/01/01', function(event) {
+
+            $(this).html(event.strftime(
+                '%-w w %-d d %H:%M:%S'
+                )
+            );
         });
     </script>
 
