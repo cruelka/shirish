@@ -78,7 +78,7 @@
             </div>
 
         </div>
-        <div class="section container">
+        <div class="section">
 
             <h5 class="left-align text-left">Top trending search this week</h5>
             <div>
