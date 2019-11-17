@@ -264,7 +264,8 @@
     <script>
         $("#main-slider").slick({
             infinite: false,
-            arrows: true,
+             autoplay:true,
+             arrows: true,
             // the magic
             responsive: [{
 
@@ -294,6 +295,7 @@
             adaptiveHeight: true,
             arrows: true,
             slidesToShow: 3,
+            autoplay:true,
 
             responsive: [{
 
@@ -357,6 +359,7 @@
             dots: true,
             adaptiveHeight: true,
             arrows: true,
+            autoplay:true,
             slidesToShow: 3,
 
             responsive: [{
@@ -388,6 +391,7 @@
         $("#big-slider-2").slick({
             dots: true,
             adaptiveHeight: true,
+            autoplay:true,
             arrows: true,
             slidesToShow: 3,
 
