@@ -81,7 +81,7 @@
         <div class="section">
 
             <h5 class="left-align text-left">Top trending search this week</h5>
-            <div>
+            <div style="width: 80%;margin: 0 auto">
                 <div id="small-slider" class="row">
                     @for($i = 0; $i < 7; $i ++)
                         @include('partials.product-small')
