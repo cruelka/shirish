@@ -84,7 +84,7 @@
         <div class="container">
             <div class="row">
                 <div class="col l3 s12">
-                    <div class="white-text"><img src="/img/logo-shirish.png"></div>
+                    <div class="white-text"><img style="width: 80%" src="/img/logo-shirish.png"></div>
                     <p class="grey-text text-darken-1">
                         +971 43 234234234234</p>
                     <p class="grey-text text-darken-1">
