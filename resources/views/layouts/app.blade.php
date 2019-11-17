@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="col l3 s12">
-                Instagram section
+                <p class="grey-text text-darken-1">Instagram section</p>
             </div>
         </div>
         <div class="footer-copyright">
