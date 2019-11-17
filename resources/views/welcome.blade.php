@@ -125,9 +125,9 @@
                 <div class="row">
                     <h5 class="left-align col s12 m6">Cookware</h5>
                     <div class="right-align col s12 m6">
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Sets</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Egg poachers</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Frying pans</a>
+                        <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>Sets</a>
+                        <a class="waves-effect blue darken-1  btn"><i class="material-icons left">cloud</i>Egg poachers</a>
+                        <a class="waves-effect blue darken-1  btn"><i class="material-icons left">cloud</i>Frying pans</a>
                     </div>
                 </div>
             </div>
@@ -147,9 +147,9 @@
                 <div class="row">
                     <h5 class="left-align col s12 m6">Electrical & Appliances</h5>
                     <div class="right-align col s12 m6">
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Mixers</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Toasters</a>
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Blenders</a>
+                        <a class="waves-effect blue darken-1  btn"><i class="material-icons left">cloud</i>Mixers</a>
+                        <a class="waves-effect blue darken-1  btn"><i class="material-icons left">cloud</i>Toasters</a>
+                        <a class="waves-effect blue darken-1  btn"><i class="material-icons left">cloud</i>Blenders</a>
                     </div>
                 </div>
             </div>
