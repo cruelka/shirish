@@ -327,7 +327,7 @@
             dots: true,
             adaptiveHeight: true,
             arrows: true,
-            slidesToShow: 3,
+            slidesToShow: 5,
 
             responsive: [{
 
