@@ -68,7 +68,7 @@
                 <div class="divider"></div>
                 <div class="grey darken-1 ">
                     <div id="promo-slider" class="row">
-                        @for($i = 0; $i < 5; $i ++)
+                        @for($i = 0; $i < 6; $i ++)
                             @include('partials.product')
                         @endfor
                     </div>
