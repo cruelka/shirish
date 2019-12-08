@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->bigInteger('attribute')->unsigned();
             $table->integer('price');
             $table->text('description');
+            $table->text('images');
             $table->bigInteger('promotion')->unsigned();
             $table->foreign('category')->references('id')->on('categories');
             $table->timestamps();
