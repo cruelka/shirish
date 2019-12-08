@@ -15,7 +15,7 @@ class Controller extends BaseController
 
     public function index()
     {
-        $data = Category::main();
+        $data = Category::getMain();
         return view('welcome',compact('data'));
     }
 }
