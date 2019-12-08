@@ -70,12 +70,9 @@
     </div>
     <div class="section">
         <div class="center">
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">free_breakfast</i>Glassware</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">kitchen</i>Kitchen Products</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">cloud</i>Tableware</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">spa</i>Cleaning Products</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">child_friendly</i>Kidswear</a>
-            <a class="waves-effect blue darken-1 btn"><i class="material-icons left">business_center</i>Office Supplies</a>
+            @foreach($data as $category)
+                <a class="waves-effect blue darken-1 btn"><i class="material-icons left">{{$category->icon}}</i>{{$category->name}}</a>
+            @endforeach
         </div>
     </div>
     @yield('content')
