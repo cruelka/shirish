@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Category.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_08_121915_create_products_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="555">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -126,8 +126,13 @@
       <find>promo</find>
       <find>big-</find>
       <find>New</find>
+      <find>CreateProductsTable</find>
       <find>cat</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/database/migrations</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -156,8 +161,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_18_173813_create_categories_table.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_12_08_121915_create_products_table.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
       </list>
     </option>
   </component>
@@ -268,7 +273,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
-    <option name="y" value="100" />
+    <option name="y" value="99" />
     <option name="width" value="1600" />
     <option name="height" value="845" />
   </component>
@@ -375,7 +380,7 @@
       <workItem from="1573995282511" duration="5538000" />
       <workItem from="1574098080900" duration="2780000" />
       <workItem from="1575292397879" duration="4000" />
-      <workItem from="1575807467996" duration="2957000" />
+      <workItem from="1575807467996" duration="4792000" />
     </task>
     <task id="LOCAL-00001" summary="merged styles">
       <created>1573412367715</created>
@@ -545,14 +550,29 @@
       <option name="project" value="LOCAL" />
       <updated>1575811450577</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="relation issue">
+      <created>1575811909858</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575811909858</updated>
+    </task>
+    <task id="LOCAL-00026" summary="relation issue">
+      <created>1575812137797</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1575812137797</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32127000" />
+    <option name="totallyTimeSpent" value="33962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="100" width="1600" height="845" extended-state="0" />
+    <frame x="1920" y="99" width="1600" height="845" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -834,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -862,17 +875,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_08_121915_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_08_121915_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
