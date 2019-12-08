@@ -17,7 +17,7 @@ class Category extends Model
         return $this->belongsTo('App\Category', 'parent' ,'id');
     }
 
-    public static function getMain()
+    public static function main()
     {
         return Category::where('main', 1)->get();
     }
