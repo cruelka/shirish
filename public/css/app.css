@@ -6859,7 +6859,7 @@ textarea.materialize-textarea + label:after {
           transform-origin: 0 0;
 }
 
-.input-field > input[type]:-webkit-autofill:not(.browser-default) + label,
+.input-field > input[type]:-webkit-autofill:not(.browser-default):not([type=search]) + label,
 .input-field > input[type=date]:not(.browser-default) + label,
 .input-field > input[type=time]:not(.browser-default) + label {
   -webkit-transform: translateY(-14px) scale(0.8);
@@ -9759,5 +9759,11 @@ input[type=range]::-ms-thumb {
 
 .rater img {
   display: inline !important;
+}
+
+.card-header {
+  margin: 20px 0 50px 0;
+  text-align: center;
+  font-size: 18px;
 }
 
