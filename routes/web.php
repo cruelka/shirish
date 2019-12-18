@@ -19,7 +19,6 @@ Route::get('/','Controller@index');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
-
 Auth::routes();
 
 
