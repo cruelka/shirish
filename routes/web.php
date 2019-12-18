@@ -28,5 +28,6 @@ Route::group(['prefix' => 'admin'], function () {
 =======
 Auth::routes();
 
+
 Route::get('/home', 'HomeController@index')->name('home');
 >>>>>>> ad42737c16ad45c96c668b679dbe185133d52655
