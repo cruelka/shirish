@@ -23,7 +23,12 @@
                     <li><a href="#">My Account</a></li>
                     <li><a href="#">Shopping Cart</a></li>
                     <li><a href="#">Checkout</a></li>
-                    <li><a href="#">Login</a></li>
+                    @guest
+                    <li><a href="/login">Login</a></li>
+                    @else
+                        <li><a href="/home">Hi, {{ Auth::user()->name }}</a></li>
+
+                    @endguest
                 </ul>
                 <ul class="sidenav" id="slide-out">
                     <li>
@@ -70,9 +75,11 @@
     </div>
     <div class="section">
         <div class="center">
+            @if(isset($data))
             @foreach($data as $category)
                 <a class="waves-effect blue darken-1 btn"><i class="material-icons left">{{$category->icon}}</i>{{$category->name}}</a>
             @endforeach
+            @endif
         </div>
     </div>
     @yield('content')
