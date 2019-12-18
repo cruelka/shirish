@@ -24,7 +24,7 @@
                     <li><a href="#">Shopping Cart</a></li>
                     <li><a href="#">Checkout</a></li>
                     @guest
-                    <li><a href="/login">Login</a></li>
+                        <li><a href="/login">Login</a></li>
                     @else
                         <li><a href="/home">Hi, {{ Auth::user()->name }}</a></li>
 
@@ -76,9 +76,26 @@
     <div class="section">
         <div class="center">
             @if(isset($data))
-            @foreach($data as $category)
-                <a class="waves-effect blue darken-1 btn"><i class="material-icons left">{{$category->icon}}</i>{{$category->name}}</a>
-            @endforeach
+                <ul class="tabs ">
+                    @foreach($data as $category)
+
+                        <li class="tab col s3 blue-text darken-1">
+                            <a href="#swipe-{{$category->id}}">{{$category->name}}</a>
+                        </li>
+
+                    @endforeach
+                </ul>
+                @foreach($data as $category)
+                <div id="swipe-{{$category->id}}" class="padding-small col s12 blue-text">
+                  @foreach($category->childs as $child)
+                        <a class="waves-effect blue darken-1 btn btn-link" href="#">
+                          {{$child->name}}
+                        </a>
+                    @endforeach
+                </div>
+                @endforeach
+
+
             @endif
         </div>
     </div>
@@ -131,6 +148,9 @@
     document.addEventListener('DOMContentLoaded', function () {
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems);
+        var el = document.querySelectorAll('.tabs');
+        var instance = M.Tabs.init(el);
+
     });
 </script>
 @yield('scripts')

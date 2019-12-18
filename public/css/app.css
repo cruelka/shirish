@@ -9767,3 +9767,17 @@ input[type=range]::-ms-thumb {
   font-size: 18px;
 }
 
+.tabs .tab a {
+  color: #039be5 !important;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: rgba(29, 136, 229, 0.2);
+  outline: none;
+}
+
+.tabs .indicator {
+  background-color: rgba(29, 136, 229, 0.2);
+}
+

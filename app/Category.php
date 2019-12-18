@@ -21,5 +21,6 @@ class Category extends Model
     {
         return Category::where('main', 1)->get();
     }
+
 }
 
