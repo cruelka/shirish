@@ -54,7 +54,7 @@
         <nav class="z-depth-0">
             <div class="nav-wrapper white no row">
 
-                <a href="#" class="brand-logo padding-small"><img src="/img/logo-shirish.png"></a>
+                <a href="/" class="brand-logo padding-small"><img src="/img/logo-shirish.png"></a>
                 <form class="center-align col s5 offset-l4 hide-on-med-and-down">
                     <div class="input-field">
                         <input id="search" placeholder="Search here..." type="search" required>
